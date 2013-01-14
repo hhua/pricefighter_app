@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<application-keys xmlns="http://www.ebay.com/msif/config">
+      <application-key env="production">
+            <application-id>wewe2d6d5-5eb9-41e5-9af7-f7cb9b28fb8</application-id>
+            <developer-id>13d7cc0e-b43f-440d-be3d-1deaa2e2658d</developer-id>
+            <certificate>fbd8645f-c1de-4a4e-8741-8187a7b56d01</certificate>
+      </application-key>
+</application-keys>

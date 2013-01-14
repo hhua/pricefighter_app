@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+	<ImageView android:id="@+id/StartupBackground"
+		android:background="@drawable/bg1" android:scaleType="center" 
+		android:layout_height="fill_parent" android:layout_width="fill_parent"></ImageView>
+		
+		<!--  
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:orientation="vertical">
+		 android:gravity="center_vertical|center_horizontal|center"> 
+		 <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/MainSearch" android:drawableLeft="@drawable/btn_search" android:layout_alignTop="@+id/edit_input" android:layout_alignParentRight="true"></Button>
+		 <EditText android:layout_width="430dip" android:singleLine="true" android:layout_height="wrap_content" android:id="@+id/edit_input" android:hint="Smart Search" android:layout_centerVertical="true" android:layout_alignParentLeft="true">
+		     <requestFocus></requestFocus>
+		 </EditText>		
+	</RelativeLayout>-->
+	
+	<TableLayout android:orientation="horizontal"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:stretchColumns="2">
+		<TableRow android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="150dip"
+			android:layout_marginLeft="100dip"
+			android:layout_marginRight="100dip"
+			>
+			<EditText android:id="@+id/edit_input" android:layout_width="280dip"
+				android:layout_height="wrap_content" android:hint="Smart Search" />
+			<Button android:id="@+id/MainSearch" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:drawableLeft="@drawable/search" />
+		</TableRow>
+	</TableLayout>
+</FrameLayout>
